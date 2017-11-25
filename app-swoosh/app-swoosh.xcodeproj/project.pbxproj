@@ -13,6 +13,7 @@
 		0108B2B41FC978660047FFF7 /* app_swoosh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0108B2B21FC978660047FFF7 /* app_swoosh.xcdatamodeld */; };
 		0108B2B61FC978660047FFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0108B2B51FC978660047FFF7 /* Assets.xcassets */; };
 		0108B2B91FC978660047FFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0108B2B71FC978660047FFF7 /* LaunchScreen.storyboard */; };
+		0108B2C21FC984670047FFF7 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0108B2C11FC984670047FFF7 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0108B2B51FC978660047FFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0108B2B81FC978660047FFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0108B2BA1FC978660047FFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0108B2C11FC984670047FFF7 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0108B2AA1FC978660047FFF7 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				0108B2C01FC983FC0047FFF7 /* Views */,
 				0108B2AB1FC978660047FFF7 /* AppDelegate.swift */,
 				0108B2AD1FC978660047FFF7 /* ViewController.swift */,
 				0108B2AF1FC978660047FFF7 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				0108B2B21FC978660047FFF7 /* app_swoosh.xcdatamodeld */,
 			);
 			path = "app-swoosh";
+			sourceTree = "<group>";
+		};
+		0108B2C01FC983FC0047FFF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0108B2C11FC984670047FFF7 /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				0108B2AE1FC978660047FFF7 /* ViewController.swift in Sources */,
 				0108B2B41FC978660047FFF7 /* app_swoosh.xcdatamodeld in Sources */,
 				0108B2AC1FC978660047FFF7 /* AppDelegate.swift in Sources */,
+				0108B2C21FC984670047FFF7 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

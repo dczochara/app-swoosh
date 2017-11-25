@@ -10,8 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var swoosh: UIImageView!
+    @IBOutlet var bgImg: UIImageView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
